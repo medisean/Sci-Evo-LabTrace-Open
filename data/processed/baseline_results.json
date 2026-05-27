@@ -1,0 +1,52 @@
+[
+  {
+    "baseline": "majority_prior_loco",
+    "task_type": "next_step_decision",
+    "task_count": 169,
+    "answered_count": 169,
+    "phase_accuracy": 0.1183,
+    "action_accuracy": 0.3905,
+    "tool_accuracy": 0.1183,
+    "all_three_accuracy": 0.0
+  },
+  {
+    "baseline": "step_index_prior_loco",
+    "task_type": "next_step_decision",
+    "task_count": 169,
+    "answered_count": 169,
+    "phase_accuracy": 0.8284,
+    "action_accuracy": 0.8402,
+    "tool_accuracy": 0.8284,
+    "all_three_accuracy": 0.8284
+  },
+  {
+    "baseline": "majority_prior_loco",
+    "task_type": "gap_to_decision_reasoning",
+    "task_count": 169,
+    "answered_count": 169,
+    "phase_accuracy": 0.1183,
+    "action_accuracy": 0.3905,
+    "tool_accuracy": 0.1183,
+    "all_three_accuracy": 0.0
+  },
+  {
+    "baseline": "step_index_prior_loco",
+    "task_type": "gap_to_decision_reasoning",
+    "task_count": 169,
+    "answered_count": 169,
+    "phase_accuracy": 0.8284,
+    "action_accuracy": 0.8402,
+    "tool_accuracy": 0.8284,
+    "all_three_accuracy": 0.8284
+  },
+  {
+    "baseline": "last_step_copy",
+    "task_type": "next_step_decision",
+    "task_count": 169,
+    "answered_count": 144,
+    "phase_accuracy": 0.0,
+    "action_accuracy": 0.0486,
+    "tool_accuracy": 0.0,
+    "all_three_accuracy": 0.0
+  }
+]

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Sci-Evo-LabTrace"
+abstract: "A Sci-Evo dataset of evidence-grounded scientific evolution trajectories for protein and enzyme engineering."
+authors:
+  - family-names: "MediSean"
+    given-names: "Sci-Evo-LabTrace Contributors"
+version: "0.1.0"
+date-released: "2026-05-27"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/medisean/Sci-Evo-LabTrace-Open"
+keywords:
+  - "Sci-Evo"
+  - "AI4S"
+  - "protein engineering"
+  - "enzyme engineering"
+  - "scientific evolution trajectory"

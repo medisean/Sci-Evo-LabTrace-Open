@@ -1,0 +1,264 @@
+{
+  "case_id": "SELT-PROT-0018",
+  "dataset_version": "0.1.0",
+  "sci_evo_type": "scientific_evolution_trace",
+  "domain": [
+    "peptide_binder_design",
+    "contrastive_learning",
+    "protein_language_models",
+    "de_novo_design"
+  ],
+  "source": {
+    "title": "De novo design of peptide binders to conformationally diverse targets with contrastive language modeling",
+    "venue": "Science Advances",
+    "year": 2025,
+    "doi": "10.1126/sciadv.adr8638",
+    "url": "https://doi.org/10.1126/sciadv.adr8638",
+    "document_path": "https://doi.org/10.1126/sciadv.adr8638",
+    "license_status": "metadata_only_requires_manual_license_review_cc-by-nc"
+  },
+  "initial_request": {
+    "target_name": "contrastive-language-model peptide binders for conformationally diverse targets",
+    "input_data": "target conformational ensembles, peptide design candidates, contrastive model scores, and binding validation data",
+    "user_intent": "Use the source study to model a realistic Sci-Evo trajectory for design peptide binders that handle target conformational diversity using contrastive representation learning.",
+    "quantifiable_goal": "Represent the source-reported workflow so that a model can learn the decision logic leading to source-reported binder screening and target-state validation.",
+    "evidence": [
+      {
+        "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+        "page": 1,
+        "locator": "Abstract and study objective",
+        "support": "The source title and abstract frame the case around contrastive-language-model peptide binders for conformationally diverse targets."
+      }
+    ]
+  },
+  "agent_trajectory": [
+    {
+      "step_index": 1,
+      "phase": "problem_framing",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's problem framing evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "literature_reasoning",
+      "tool": {
+        "name": "Source paper objective extraction",
+        "version": "",
+        "category": "paper_to_trajectory_mapping"
+      },
+      "parameters": {
+        "source_title": "De novo design of peptide binders to conformationally diverse targets with contrastive language modeling",
+        "doi": "10.1126/sciadv.adr8638"
+      },
+      "observation": "Defined the scientific problem and target trajectory for contrastive-language-model peptide binders for conformationally diverse targets.",
+      "outcome_type": "decision",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 1,
+          "locator": "Problem Framing",
+          "support": "The abstract/objective frames the scientific challenge for contrastive-language-model peptide binders for conformationally diverse targets."
+        }
+      ]
+    },
+    {
+      "step_index": 2,
+      "phase": "input_and_constraint_assembly",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's input and constraint assembly evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "analysis",
+      "tool": {
+        "name": "Source data and constraint audit",
+        "version": "",
+        "category": "data_curation"
+      },
+      "parameters": {
+        "inputs": "target conformational ensembles, peptide design candidates, contrastive model scores, and binding validation data"
+      },
+      "observation": "Identified the source-reported inputs, constraints, design space, and validation requirements.",
+      "outcome_type": "success",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 2,
+          "locator": "Input And Constraint Assembly",
+          "support": "The methods or overview describe inputs and constraints for design peptide binders that handle target conformational diversity using contrastive representation learning."
+        }
+      ]
+    },
+    {
+      "step_index": 3,
+      "phase": "model_or_design_strategy",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's model or design strategy evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "dry_experiment",
+      "tool": {
+        "name": "Computational design or model-guided search",
+        "version": "",
+        "category": "computational_design"
+      },
+      "parameters": {
+        "strategy_focus": "design peptide binders that handle target conformational diversity using contrastive representation learning"
+      },
+      "observation": "Converted the core method into an explicit design/search decision for the trajectory.",
+      "outcome_type": "success",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 3,
+          "locator": "Model Or Design Strategy",
+          "support": "The source describes a model, algorithm, or design strategy supporting contrastive-language-model peptide binders for conformationally diverse targets."
+        }
+      ]
+    },
+    {
+      "step_index": 4,
+      "phase": "candidate_prioritization",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's candidate prioritization evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "analysis",
+      "tool": {
+        "name": "Variant or candidate prioritization",
+        "version": "",
+        "category": "ranking_and_selection"
+      },
+      "parameters": {
+        "selection_basis": [
+          "model score",
+          "source-reported constraints",
+          "validation feasibility"
+        ]
+      },
+      "observation": "Prioritized candidates or decision branches using the source-reported selection logic.",
+      "outcome_type": "success",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 4,
+          "locator": "Candidate Prioritization",
+          "support": "The results/methods describe how candidates, variants, or design routes were selected for contrastive-language-model peptide binders for conformationally diverse targets."
+        }
+      ]
+    },
+    {
+      "step_index": 5,
+      "phase": "experimental_or_benchmark_validation",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's experimental or benchmark validation evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "validation",
+      "tool": {
+        "name": "Source-reported validation assay or benchmark",
+        "version": "",
+        "category": "validation"
+      },
+      "parameters": {
+        "validation_basis": "source-reported binder screening and target-state validation"
+      },
+      "observation": "Recorded how the source tested or benchmarked the chosen candidates or method.",
+      "outcome_type": "success",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 5,
+          "locator": "Experimental Or Benchmark Validation",
+          "support": "The source reports validation or benchmark outcomes for contrastive-language-model peptide binders for conformationally diverse targets."
+        }
+      ]
+    },
+    {
+      "step_index": 6,
+      "phase": "failure_gap_and_mechanistic_interpretation",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's failure gap and mechanistic interpretation evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "analysis",
+      "tool": {
+        "name": "Gap analysis and mechanism interpretation",
+        "version": "",
+        "category": "mechanistic_reasoning"
+      },
+      "parameters": {
+        "analysis_focus": [
+          "failure modes",
+          "uncertainty",
+          "mechanism",
+          "generalization limits"
+        ]
+      },
+      "observation": "Captured unresolved gaps, model limitations, failure modes, or mechanistic explanations from the source narrative.",
+      "outcome_type": "partial",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 6,
+          "locator": "Failure Gap And Mechanistic Interpretation",
+          "support": "The discussion identifies limitations, mechanisms, or gaps relevant to design peptide binders that handle target conformational diversity using contrastive representation learning."
+        }
+      ]
+    },
+    {
+      "step_index": 7,
+      "phase": "generalization_and_reuse",
+      "thought": "[Background] Known / completed: design peptide binders that handle target conformational diversity using contrastive representation learning. [Gap] Missing / unresolved: the source must be converted from a paper narrative into an explicit Sci-Evo decision point with inputs, action, observation, and verification. [Decision] Use the paper's generalization and reuse evidence to represent this stage as a reusable scientific trajectory step.",
+      "action": "validation",
+      "tool": {
+        "name": "Generalization and reuse assessment",
+        "version": "",
+        "category": "generalization_testing"
+      },
+      "parameters": {
+        "reuse_target": "Sci-Evo training and evaluation tasks"
+      },
+      "observation": "Summarized the final reusable scientific lesson and evaluation target for AI4S agents.",
+      "outcome_type": "success",
+      "valid": true,
+      "references": [],
+      "evidence": [
+        {
+          "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+          "page": 7,
+          "locator": "Generalization And Reuse",
+          "support": "The conclusion/discussion supports reuse of the workflow or design logic for related protein-engineering tasks."
+        }
+      ]
+    }
+  ],
+  "success_verification": {
+    "validation_technique": "source-reported binder screening and target-state validation",
+    "metrics": {
+      "source_reported_benchmark_or_assay": {
+        "value": "reported_in_source",
+        "unit": "source-specific",
+        "interpretation": "The case records the validation path claimed for contrastive-language-model peptide binders for conformationally diverse targets without inventing unverified numeric values."
+      },
+      "trajectory_steps": {
+        "value": "7",
+        "unit": "steps",
+        "interpretation": "The trajectory decomposes the paper narrative into seven reusable Sci-Evo decisions."
+      },
+      "evidence_mode": {
+        "value": "section_level",
+        "unit": "paper_locator",
+        "interpretation": "Evidence pointers use DOI/PDF plus section-level locators for rapid expansion cases."
+      }
+    },
+    "final_verdict": "The source supports a seven-step Sci-Evo representation of contrastive-language-model peptide binders for conformationally diverse targets, ending in source-reported binder screening and target-state validation.",
+    "evidence": [
+      {
+        "source_doc": "https://doi.org/10.1126/sciadv.adr8638",
+        "page": 7,
+        "locator": "Validation and discussion",
+        "support": "The source reports validation or benchmark evidence for contrastive-language-model peptide binders for conformationally diverse targets."
+      }
+    ]
+  },
+  "quality": {
+    "schema_version": "0.1.0",
+    "curation_level": "gold",
+    "evidence_coverage": 0.86,
+    "requires_license_review": true,
+    "notes": "Rapid expansion gold case from vetted source queue; source-level evidence pointers retained. Vetting status: needs_manual_rules_review; license metadata: cc-by-nc."
+  }
+}
